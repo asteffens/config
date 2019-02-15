@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: JBibliography Webservice API via Configserver
+    description: RESTful Webservices for JBibliography
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+logging:
+  file: logs/swc-demo-${random.uuid}.log
