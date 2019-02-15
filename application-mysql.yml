@@ -1,0 +1,6 @@
+spring:
+  datasource:
+      driverClassName: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://db/swc-demo
+      username: demo
+      password: W5r5Hwde9xvVUh%
